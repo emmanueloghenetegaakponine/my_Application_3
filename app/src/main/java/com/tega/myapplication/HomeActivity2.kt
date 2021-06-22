@@ -15,6 +15,7 @@ class HomeActivity2 : AppCompatActivity() {
 
         welcome1 = findViewById(R.id.welcome1)
 
-        welcome1.text = "Hello Akponine"
+        welcome1.text = intent.getStringExtra("userName")
+
     }
 }
